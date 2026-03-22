@@ -1,0 +1,608 @@
+{
+  "description": "Sample of 100 validated synonym pairs from JusBR-ER. Full dictionary (487 pairs) available under CC BY-NC-SA 4.0.",
+  "total_in_sample": 100,
+  "total_in_full": 487,
+  "license": "CC BY-NC-SA 4.0",
+  "pairs": [
+    {
+      "entity_a": "Abusividade da cláusula de capitalização diária de juros",
+      "entity_b": "Abusividade da capitalização diária de juros",
+      "norm_a": "abusividade da clausula de capitalizacao diaria de juros",
+      "norm_b": "abusividade da capitalizacao diaria de juros"
+    },
+    {
+      "entity_a": "Abusividade da taxa de juros remuneratórios",
+      "entity_b": "Abusividade nos juros remuneratórios",
+      "norm_a": "abusividade da taxa de juros remuneratorios",
+      "norm_b": "abusividade nos juros remuneratorios"
+    },
+    {
+      "entity_a": "Abusividade de cláusulas contratuais",
+      "entity_b": "Análise de abusividade de cláusulas contratuais",
+      "norm_a": "abusividade de clausulas contratuais",
+      "norm_b": "analise de abusividade de clausulas contratuais"
+    },
+    {
+      "entity_a": "Abusividade de encargos",
+      "entity_b": "Abusividade dos encargos contratuais",
+      "norm_a": "abusividade de encargos",
+      "norm_b": "abusividade dos encargos contratuais"
+    },
+    {
+      "entity_a": "Abusividade dos juros remuneratórios",
+      "entity_b": "Análise da abusividade dos juros remuneratórios",
+      "norm_a": "abusividade dos juros remuneratorios",
+      "norm_b": "analise da abusividade dos juros remuneratorios"
+    },
+    {
+      "entity_a": "Abusividade na cobrança de juros remuneratórios",
+      "entity_b": "Abusividade em taxas de juros remuneratórios",
+      "norm_a": "abusividade na cobranca de juros remuneratorios",
+      "norm_b": "abusividade em taxas de juros remuneratorios"
+    },
+    {
+      "entity_a": "Abusividade nos juros remuneratórios",
+      "entity_b": "Análise da abusividade dos juros remuneratórios",
+      "norm_a": "abusividade nos juros remuneratorios",
+      "norm_b": "analise da abusividade dos juros remuneratorios"
+    },
+    {
+      "entity_a": "Abuso da personalidade jurídica",
+      "entity_b": "Comprovação de abuso de personalidade jurídica",
+      "norm_a": "abuso da personalidade juridica",
+      "norm_b": "comprovacao de abuso de personalidade juridica"
+    },
+    {
+      "entity_a": "Alegação de julgamento extra petita",
+      "entity_b": "Julgamento extra petita",
+      "norm_a": "alegacao de julgamento extra petita",
+      "norm_b": "julgamento extra petita"
+    },
+    {
+      "entity_a": "Alegação de violação ao art. 489, § 1º, do CPC/2015",
+      "entity_b": "Alegação de violação ao art. 535 do CPC",
+      "norm_a": "alegacao de violacao ao artigo 489, § 1º, do codigo de processo civil/2015",
+      "norm_b": "alegacao de violacao ao artigo 535 do codigo de processo civil"
+    },
+    {
+      "entity_a": "Análise da violação do art. 1.022 do CPC/2015",
+      "entity_b": "Violação do art. 1.022 do CPC/2015",
+      "norm_a": "analise da violacao do artigo 1.022 do codigo de processo civil/2015",
+      "norm_b": "violacao do artigo 1.022 do codigo de processo civil/2015"
+    },
+    {
+      "entity_a": "Análise da violação dos arts. 489 e 1.022 do CPC",
+      "entity_b": "Violação dos arts. 489 e 1.022 do CPC",
+      "norm_a": "analise da violacao dos artigo s. 489 e 1.022 do codigo de processo civil",
+      "norm_b": "violacao dos artigo s. 489 e 1.022 do codigo de processo civil"
+    },
+    {
+      "entity_a": "Análise definitiva da questão sub judice",
+      "entity_b": "Análise da questão sub judice de forma definitiva",
+      "norm_a": "analise definitiva da questao sub judice",
+      "norm_b": "analise da questao sub judice de forma definitiva"
+    },
+    {
+      "entity_a": "Análise do mérito do recurso",
+      "entity_b": "Análise do mérito",
+      "norm_a": "analise do merito do recurso",
+      "norm_b": "analise do merito"
+    },
+    {
+      "entity_a": "Análise do periculum in mora",
+      "entity_b": "perigo de dano ou risco ao resultado útil do processo",
+      "norm_a": "analise do periculum in mora",
+      "norm_b": "perigo de dano ou risco ao resultado util do processo"
+    },
+    {
+      "entity_a": "Análise do periculum in mora",
+      "entity_b": "Perigo de dano",
+      "norm_a": "analise do periculum in mora",
+      "norm_b": "perigo de dano"
+    },
+    {
+      "entity_a": "Análise do periculum in mora",
+      "entity_b": "Perigo de dano para tutela de urgência",
+      "norm_a": "analise do periculum in mora",
+      "norm_b": "perigo de dano para tutela de urgencia"
+    },
+    {
+      "entity_a": "Análise do periculum in mora",
+      "entity_b": "Perigo de dano ou risco ao resultado útil do processo (periculum in mora)",
+      "norm_a": "analise do periculum in mora",
+      "norm_b": "perigo de dano ou risco ao resultado util do processo (periculum in mora)"
+    },
+    {
+      "entity_a": "Anexação de peças obrigatórias referidas no artigo 1.017, I, do Código de Processo Civil",
+      "entity_b": "Anexar as peças obrigatórias elencadas no art. 1.017, I, do CPC",
+      "norm_a": "anexacao de pecas obrigatorias referidas no artigo igo 1.017, i, do codigo de processo civil",
+      "norm_b": "anexar as pecas obrigatorias elencadas no artigo 1.017, i, do codigo de processo civil"
+    },
+    {
+      "entity_a": "Aparência do bom direito (fumus boni iuris)",
+      "entity_b": "Probabilidade do direito (fumus boni iuris)",
+      "norm_a": "aparencia do bom direito (fumus boni iuris)",
+      "norm_b": "probabilidade do direito (fumus boni iuris)"
+    },
+    {
+      "entity_a": "Aparência do bom direito (fumus boni iuris)",
+      "entity_b": "Fumus boni iuris (probabilidade do direito)",
+      "norm_a": "aparencia do bom direito (fumus boni iuris)",
+      "norm_b": "fumus boni iuris (probabilidade do direito)"
+    },
+    {
+      "entity_a": "Aparência do bom direito (fumus boni iuris)",
+      "entity_b": "Probabilidade do direito alegado",
+      "norm_a": "aparencia do bom direito (fumus boni iuris)",
+      "norm_b": "probabilidade do direito alegado"
+    },
+    {
+      "entity_a": "Aparência do bom direito (fumus boni iuris)",
+      "entity_b": "Probabilidade do direito em cognição sumária",
+      "norm_a": "aparencia do bom direito (fumus boni iuris)",
+      "norm_b": "probabilidade do direito em cognicao sumaria"
+    },
+    {
+      "entity_a": "Aplicabilidade do Tema 677 do STJ",
+      "entity_b": "Aplicação do Tema 677/STJ",
+      "norm_a": "aplicabilidade do tema 677 do stj",
+      "norm_b": "aplicacao do tema 677/stj"
+    },
+    {
+      "entity_a": "Aplicação da multa do art. 1021, §4 do CPC/2015",
+      "entity_b": "Aplicação da multa prevista no art. 1.021, §§ 4.º e 5.º, do CPC/2015",
+      "norm_a": "aplicacao da multa do artigo 1021, §4 do codigo de processo civil/2015",
+      "norm_b": "aplicacao da multa prevista no artigo 1.021, §§ 4.º e 5.º, do codigo de processo civil/2015"
+    },
+    {
+      "entity_a": "Aplicação da multa do CPC/2015 art. 1.021, §4º",
+      "entity_b": "Aplicação da multa prevista no art. 1.021, §4°, do CPC",
+      "norm_a": "aplicacao da multa do codigo de processo civil/2015 artigo 1.021, §4º",
+      "norm_b": "aplicacao da multa prevista no artigo 1.021, §4°, do codigo de processo civil"
+    },
+    {
+      "entity_a": "Aplicação da multa do CPC/2015 art. 1.021, §4º",
+      "entity_b": "Aplicação da multa prevista no art. 1.021, §§ 4.º e 5.º, do CPC/2015",
+      "norm_a": "aplicacao da multa do codigo de processo civil/2015 artigo 1.021, §4º",
+      "norm_b": "aplicacao da multa prevista no artigo 1.021, §§ 4.º e 5.º, do codigo de processo civil/2015"
+    },
+    {
+      "entity_a": "Aplicação da Súmula 182/STJ como óbice ao conhecimento do agravo",
+      "entity_b": "Incidência da Súmula 182/STJ como óbice ao conhecimento do agravo em recurso especial.",
+      "norm_a": "aplicacao da sumula 182/stj como obice ao conhecimento do agravo",
+      "norm_b": "inciso idencia da sumula 182/stj como obice ao conhecimento do agravo em recurso especial"
+    },
+    {
+      "entity_a": "Aplicação da taxa SELIC como índice de correção monetária",
+      "entity_b": "Aplicação da Taxa Selic",
+      "norm_a": "aplicacao da taxa selic como indice de correcao monetaria",
+      "norm_b": "aplicacao da taxa selic"
+    },
+    {
+      "entity_a": "Aplicação da Taxa Selic para juros moratórios e correção monetária",
+      "entity_b": "Taxa Selic para correção monetária e juros de mora",
+      "norm_a": "aplicacao da taxa selic para juros moratorios e correcao monetaria",
+      "norm_b": "taxa selic para correcao monetaria e juros de mora"
+    },
+    {
+      "entity_a": "Aplicação da taxa SELIC para juros moratórios em obrigações civis",
+      "entity_b": "Aplicação da Taxa Selic",
+      "norm_a": "aplicacao da taxa selic para juros moratorios em obrigacoes civis",
+      "norm_b": "aplicacao da taxa selic"
+    },
+    {
+      "entity_a": "Aplicação do art. 135, III, CTN para responsabilidade pessoal de sócios",
+      "entity_b": "Presença das condições estabelecidas no art. 135, III, do CTN para responsabilidade pessoal dos sócios",
+      "norm_a": "aplicacao do artigo 135, iii, codigo tributario nacional para responsabilidade pessoal de socios",
+      "norm_b": "presenca das condicoes estabelecidas no artigo 135, iii, do codigo tributario nacional para responsabilidade pessoal dos socios"
+    },
+    {
+      "entity_a": "Aplicação do art. 741, parágrafo único, do CPC para inexigibilidade de título judicial",
+      "entity_b": "Inexigibilidade de título judicial com base no art. 741, parágrafo único, do CPC",
+      "norm_a": "aplicacao do artigo 741, paragrafo unico, do codigo de processo civil para inexigibilidade de titulo judicial",
+      "norm_b": "inexigibilidade de titulo judicial com base no artigo 741, paragrafo unico, do codigo de processo civil"
+    },
+    {
+      "entity_a": "Aplicação do prazo prescricional de cinco anos do art. 174 do CTN",
+      "entity_b": "Aplicação do prazo prescricional do art. 174 do CTN à execução fiscal de multa administrativa",
+      "norm_a": "aplicacao do prazo prescricional de cinco anos do artigo 174 do codigo tributario nacional",
+      "norm_b": "aplicacao do prazo prescricional do artigo 174 do codigo tributario nacional a execucao fiscal de multa administrativa"
+    },
+    {
+      "entity_a": "Aplicação do prazo prescricional decenal",
+      "entity_b": "Prazo prescricional decenal",
+      "norm_a": "aplicacao do prazo prescricional decenal",
+      "norm_b": "prazo prescricional decenal"
+    },
+    {
+      "entity_a": "Aplicação obrigatória da Taxa SELIC acumulada como índice único de correção monetária e juros de mora em créditos fazendários a partir de 09/12/2021",
+      "entity_b": "Aplicação da Taxa SELIC como índice único para correção monetária e juros de mora a partir de 09/12/2021",
+      "norm_a": "aplicacao obrigatoria da taxa selic acumulada como indice unico de correcao monetaria e juros de mora em creditos fazendarios a partir de 09/12/2021",
+      "norm_b": "aplicacao da taxa selic como indice unico para correcao monetaria e juros de mora a partir de 09/12/2021"
+    },
+    {
+      "entity_a": "Argumentos capazes de infirmar a decisão objurgada",
+      "entity_b": "Apresentação de argumentos novos para alterar a decisão",
+      "norm_a": "argumentos capazes de infirmar a decisao objurgada",
+      "norm_b": "apresentacao de argumentos novos para alterar a decisao"
+    },
+    {
+      "entity_a": "Assinatura digital baseada em certificado digital emitido por autoridade certificadora credenciada",
+      "entity_b": "Presença de assinatura digital baseada em certificado digital emitido por Autoridade Certificadora credenciada",
+      "norm_a": "assinatura digital baseada em certificado digital emitido por autoridade certificadora credenciada",
+      "norm_b": "presenca de assinatura digital baseada em certificado digital emitido por autoridade certificadora credenciada"
+    },
+    {
+      "entity_a": "Ausência de erro material, obscuridade, contradição ou omissão no acórdão",
+      "entity_b": "Inexistência de omissão, obscuridade ou contradição no julgado",
+      "norm_a": "ausencia de erro material, obscuridade, contradicao ou omissao no acordao",
+      "norm_b": "inexistencia de omissao, obscuridade ou contradicao no julgado"
+    },
+    {
+      "entity_a": "Ausência de erro material, obscuridade, contradição ou omissão no acórdão",
+      "entity_b": "Inexistência de omissão, contradição, obscuridade ou erro material na decisão",
+      "norm_a": "ausencia de erro material, obscuridade, contradicao ou omissao no acordao",
+      "norm_b": "inexistencia de omissao, contradicao, obscuridade ou erro material na decisao"
+    },
+    {
+      "entity_a": "Ausência de erro material, obscuridade, contradição ou omissão no acórdão",
+      "entity_b": "Ausência de contradição, omissão ou obscuridade na decisão colegiada",
+      "norm_a": "ausencia de erro material, obscuridade, contradicao ou omissao no acordao",
+      "norm_b": "ausencia de contradicao, omissao ou obscuridade na decisao colegiada"
+    },
+    {
+      "entity_a": "Ausência de erro material, obscuridade, contradição ou omissão no acórdão",
+      "entity_b": "Ausência de indicação expressa de obscuridade, omissão ou contradição no acórdão",
+      "norm_a": "ausencia de erro material, obscuridade, contradicao ou omissao no acordao",
+      "norm_b": "ausencia de indicacao expressa de obscuridade, omissao ou contradicao no acordao"
+    },
+    {
+      "entity_a": "Ausência de movimentação útil no processo por mais de um ano",
+      "entity_b": "Falta de movimentação útil no processo por mais de um ano",
+      "norm_a": "ausencia de movimentacao util no processo por mais de um ano",
+      "norm_b": "falta de movimentacao util no processo por mais de um ano"
+    },
+    {
+      "entity_a": "Ausência de omissão no acórdão conforme art. 535 do CPC",
+      "entity_b": "Ausência de violação ao art. 1.022, II, do CPC quanto à omissão no acórdão",
+      "norm_a": "ausencia de omissao no acordao conforme artigo 535 do codigo de processo civil",
+      "norm_b": "ausencia de violacao ao artigo 1.022, ii, do codigo de processo civil quanto a omissao no acordao"
+    },
+    {
+      "entity_a": "Ausência de omissão, contradição ou obscuridade no acórdão para que seja considerado válido",
+      "entity_b": "Existência de omissão, contradição, obscuridade ou erro material no acórdão",
+      "norm_a": "ausencia de omissao, contradicao ou obscuridade no acordao para que seja considerado valido",
+      "norm_b": "existencia de omissao, contradicao, obscuridade ou erro material no acordao"
+    },
+    {
+      "entity_a": "Ausência de reexame de fatos e provas no recurso especial",
+      "entity_b": "Ausência de reexame de fatos e provas",
+      "norm_a": "ausencia de reexame de fatos e provas no recurso especial",
+      "norm_b": "ausencia de reexame de fatos e provas"
+    },
+    {
+      "entity_a": "Ausência de violação ao art. 489 do CPC/2015, que exige que a decisão resolva as questões necessárias.",
+      "entity_b": "Ausência de violação ao art. 489, §1º, IV, do CPC quanto à fundamentação da decisão",
+      "norm_a": "ausencia de violacao ao artigo 489 do codigo de processo civil/2015, que exige que a decisao resolva as questoes necessarias",
+      "norm_b": "ausencia de violacao ao artigo 489, §1º, iv, do codigo de processo civil quanto a fundamentacao da decisao"
+    },
+    {
+      "entity_a": "Boa-fé contratual objetiva",
+      "entity_b": "Boa-fé objetiva",
+      "norm_a": "boa-fe contratual objetiva",
+      "norm_b": "boa-fe objetiva"
+    },
+    {
+      "entity_a": "Boa-fé nas relações contratuais",
+      "entity_b": "Boa-fé contratual",
+      "norm_a": "boa-fe nas relacoes contratuais",
+      "norm_b": "boa-fe contratual"
+    },
+    {
+      "entity_a": "Boa-fé objetiva",
+      "entity_b": "Boa-fé nas relações contratuais",
+      "norm_a": "boa-fe objetiva",
+      "norm_b": "boa-fe nas relacoes contratuais"
+    },
+    {
+      "entity_a": "Cabimento de agravo de instrumento depende de enquadramento no rol do CPC/2015 art. 1.015 ou de demonstração de urgência apta a justificar a taxatividade mitigada.",
+      "entity_b": "Cabimento de agravo de instrumento exige que a decisão interlocutória se enquadre em alguma hipótese do CPC/2015 art. 1.015",
+      "norm_a": "cabimento de agravo de instrumento depende de enquadramento no rol do codigo de processo civil/2015 artigo 1.015 ou de demonstracao de urgencia apta a justificar a taxatividade mitigada",
+      "norm_b": "cabimento de agravo de instrumento exige que a decisao interlocutoria se enquadre em alguma hipotese do codigo de processo civil/2015 artigo 1.015"
+    },
+    {
+      "entity_a": "Cabimento de honorários advocatícios de sucumbência",
+      "entity_b": "Condenação ao pagamento de honorários advocatícios de sucumbência",
+      "norm_a": "cabimento de honorarios advocaticios de sucumbencia",
+      "norm_b": "condenacao ao pagamento de honorarios advocaticios de sucumbencia"
+    },
+    {
+      "entity_a": "Cabimento dos embargos de declaração",
+      "entity_b": "Requisitos para cabimento de embargos de declaração",
+      "norm_a": "cabimento dos embargos de declaracao",
+      "norm_b": "requisitos para cabimento de embargos de declaracao"
+    },
+    {
+      "entity_a": "Cabimento dos embargos de divergência",
+      "entity_b": "Cabimento de embargos de divergência",
+      "norm_a": "cabimento dos embargos de divergencia",
+      "norm_b": "cabimento de embargos de divergencia"
+    },
+    {
+      "entity_a": "Caracterização de caso fortuito ou força maior",
+      "entity_b": "Caso fortuito ou força maior",
+      "norm_a": "caracterizacao de caso fortuito ou forca maior",
+      "norm_b": "caso fortuito ou forca maior"
+    },
+    {
+      "entity_a": "Caracterização de caso fortuito ou força maior",
+      "entity_b": "Demonstração de caso fortuito ou força maior",
+      "norm_a": "caracterizacao de caso fortuito ou forca maior",
+      "norm_b": "demonstracao de caso fortuito ou forca maior"
+    },
+    {
+      "entity_a": "Caracterização de caso fortuito ou força maior",
+      "entity_b": "Configuração de caso fortuito ou força maior",
+      "norm_a": "caracterizacao de caso fortuito ou forca maior",
+      "norm_b": "configuracao de caso fortuito ou forca maior"
+    },
+    {
+      "entity_a": "Caso fortuito ou força maior",
+      "entity_b": "Demonstração de caso fortuito ou força maior",
+      "norm_a": "caso fortuito ou forca maior",
+      "norm_b": "demonstracao de caso fortuito ou forca maior"
+    },
+    {
+      "entity_a": "Caução para a tutela provisória",
+      "entity_b": "Necessidade de caução para a tutela provisória",
+      "norm_a": "caucao para a tutela provisoria",
+      "norm_b": "necessidade de caucao para a tutela provisoria"
+    },
+    {
+      "entity_a": "cerceamento de defesa",
+      "entity_b": "Alegação de cerceamento de defesa",
+      "norm_a": "cerceamento de defesa",
+      "norm_b": "alegacao de cerceamento de defesa"
+    },
+    {
+      "entity_a": "Cerceamento de defesa por indeferimento de prova: inexistência quando o julgador entende haver provas suficientes para o convencimento e julga antecipadamente a lide",
+      "entity_b": "Inexistência de cerceamento de defesa quando o conjunto probatório é suficiente para o juiz formar convencimento motivado, dispensando-se a produção de outras provas",
+      "norm_a": "cerceamento de defesa por indeferimento de prova: inexistencia quando o julgador entende haver provas suficientes para o convencimento e julga antecipadamente a lide",
+      "norm_b": "inexistencia de cerceamento de defesa quando o conjunto probatorio e suficiente para o juiz formar convencimento motivado, dispensando-se a producao de outras provas"
+    },
+    {
+      "entity_a": "Certeza, liquidez e exigibilidade do título",
+      "entity_b": "Requisitos de liquidez, certeza e exigibilidade das obrigações",
+      "norm_a": "certeza, liquidez e exigibilidade do titulo",
+      "norm_b": "requisitos de liquidez, certeza e exigibilidade das obrigacoes"
+    },
+    {
+      "entity_a": "Certificação digital ICP-Brasil",
+      "entity_b": "Certificação pela ICP-Brasil",
+      "norm_a": "certificacao digital icp-brasil",
+      "norm_b": "certificacao pela icp-brasil"
+    },
+    {
+      "entity_a": "Cobrança da tarifa de registro de contrato",
+      "entity_b": "Tarifa de registro de contrato",
+      "norm_a": "cobranca da tarifa de registro de contrato",
+      "norm_b": "tarifa de registro de contrato"
+    },
+    {
+      "entity_a": "Cobrança de juros remuneratórios abusivos",
+      "entity_b": "Juros remuneratórios abusivos",
+      "norm_a": "cobranca de juros remuneratorios abusivos",
+      "norm_b": "juros remuneratorios abusivos"
+    },
+    {
+      "entity_a": "Cobrança de TAC e TEC após 30.4.2008",
+      "entity_b": "Cobrança de TEC e TAC após 30/04/2008",
+      "norm_a": "cobranca de tac e tec apos 30.4.2008",
+      "norm_b": "cobranca de tec e tac apos 30/04/2008"
+    },
+    {
+      "entity_a": "Cobrança de tarifa de avaliação do bem",
+      "entity_b": "Validade da cobrança da tarifa de avaliação do bem",
+      "norm_a": "cobranca de tarifa de avaliacao do bem",
+      "norm_b": "validade da cobranca da tarifa de avaliacao do bem"
+    },
+    {
+      "entity_a": "Comprovação da contratação e da relação jurídica entre as partes",
+      "entity_b": "Demonstração da existência de relação jurídica entre as partes",
+      "norm_a": "comprovacao da contratacao e da relacao juridica entre as partes",
+      "norm_b": "demonstracao da existencia de relacao juridica entre as partes"
+    },
+    {
+      "entity_a": "Comprovação da efetiva prestação de serviços",
+      "entity_b": "Efetiva prestação de serviços",
+      "norm_a": "comprovacao da efetiva prestacao de servicos",
+      "norm_b": "efetiva prestacao de servicos"
+    },
+    {
+      "entity_a": "Comprovação da hipossuficiência financeira para gratuidade da justiça",
+      "entity_b": "Comprovação de insuficiência de recursos para concessão da gratuidade da justiça",
+      "norm_a": "comprovacao da hipossuficiencia financeira para gratuidade da justica",
+      "norm_b": "comprovacao de insuficiencia de recursos para concessao da gratuidade da justica"
+    },
+    {
+      "entity_a": "Comprovação da insuficiência de recursos para concessão da gratuidade da justiça",
+      "entity_b": "Comprovação de insuficiência de recursos",
+      "norm_a": "comprovacao da insuficiencia de recursos para concessao da gratuidade da justica",
+      "norm_b": "comprovacao de insuficiencia de recursos"
+    },
+    {
+      "entity_a": "Comprovação da mora do devedor fiduciante mediante notificação extrajudicial válida",
+      "entity_b": "Comprovação de efetiva entrega da notificação extrajudicial ao devedor",
+      "norm_a": "comprovacao da mora do devedor fiduciante mediante notificacao extrajudicial valida",
+      "norm_b": "comprovacao de efetiva entrega da notificacao extrajudicial ao devedor"
+    },
+    {
+      "entity_a": "Comprovação da mora por notificação extrajudicial",
+      "entity_b": "Comprovação da mora mediante notificação extrajudicial",
+      "norm_a": "comprovacao da mora por notificacao extrajudicial",
+      "norm_b": "comprovacao da mora mediante notificacao extrajudicial"
+    },
+    {
+      "entity_a": "Comprovação da posse efetiva",
+      "entity_b": "Comprovação do exercício efetivo da posse",
+      "norm_a": "comprovacao da posse efetiva",
+      "norm_b": "comprovacao do exercicio efetivo da posse"
+    },
+    {
+      "entity_a": "Comprovação da precariedade financeira para manutenção do benefício de justiça gratuita",
+      "entity_b": "Comprovação de precariedade financeira para concessão de gratuidade da justiça",
+      "norm_a": "comprovacao da precariedade financeira para manutencao do beneficio de justica gratuita",
+      "norm_b": "comprovacao de precariedade financeira para concessao de gratuidade da justica"
+    },
+    {
+      "entity_a": "Comprovação da renda do cônjuge",
+      "entity_b": "Necessidade de comprovação da renda do cônjuge",
+      "norm_a": "comprovacao da renda do conjuge",
+      "norm_b": "necessidade de comprovacao da renda do conjuge"
+    },
+    {
+      "entity_a": "Comprovação da utilização do imóvel como residência da entidade familiar",
+      "entity_b": "Comprovação de residência da entidade familiar no imóvel",
+      "norm_a": "comprovacao da utilizacao do imovel como residencia da entidade familiar",
+      "norm_b": "comprovacao de residencia da entidade familiar no imovel"
+    },
+    {
+      "entity_a": "Comprovação de dano concreto",
+      "entity_b": "Comprovação do dano sofrido",
+      "norm_a": "comprovacao de dano concreto",
+      "norm_b": "comprovacao do dano sofrido"
+    },
+    {
+      "entity_a": "Comprovação de feriado local no ato de interposição do recurso",
+      "entity_b": "Comprovação de feriado local por documento idôneo",
+      "norm_a": "comprovacao de feriado local no ato de interposicao do recurso",
+      "norm_b": "comprovacao de feriado local por documento idoneo"
+    },
+    {
+      "entity_a": "Comprovação de feriado local no ato de interposição do recurso",
+      "entity_b": "Comprovação da ocorrência de feriado local no ato de interposição do recurso para fins de prorrogação do prazo",
+      "norm_a": "comprovacao de feriado local no ato de interposicao do recurso",
+      "norm_b": "comprovacao da ocorrencia de feriado local no ato de interposicao do recurso para fins de prorrogacao do prazo"
+    },
+    {
+      "entity_a": "comprovação de hipossuficiência para gratuidade da justiça",
+      "entity_b": "Comprovação de insuficiência de recursos para concessão da gratuidade da justiça",
+      "norm_a": "comprovacao de hipossuficiencia para gratuidade da justica",
+      "norm_b": "comprovacao de insuficiencia de recursos para concessao da gratuidade da justica"
+    },
+    {
+      "entity_a": "Comprovação de hipossuficiência para inversão do ônus da prova no CDC",
+      "entity_b": "Inversão do ônus da prova do CDC",
+      "norm_a": "comprovacao de hipossuficiencia para inversao do onus da prova no codigo de defesa do consumidor",
+      "norm_b": "inversao do onus da prova do codigo de defesa do consumidor"
+    },
+    {
+      "entity_a": "Comprovação de impossibilidade financeira para concessão de assistência judiciária",
+      "entity_b": "Comprovação de precariedade financeira para concessão de gratuidade da justiça",
+      "norm_a": "comprovacao de impossibilidade financeira para concessao de assistencia judiciaria",
+      "norm_b": "comprovacao de precariedade financeira para concessao de gratuidade da justica"
+    },
+    {
+      "entity_a": "Comprovação de insuficiência de recursos para arcar com as despesas processuais",
+      "entity_b": "Demonstração de insuficiência de recursos para arcar com as despesas do processo",
+      "norm_a": "comprovacao de insuficiencia de recursos para arcar com as despesas processuais",
+      "norm_b": "demonstracao de insuficiencia de recursos para arcar com as despesas do processo"
+    },
+    {
+      "entity_a": "Comprovação de insuficiência de recursos para concessão de gratuidade da justiça",
+      "entity_b": "Comprovação de precariedade financeira para concessão de gratuidade da justiça",
+      "norm_a": "comprovacao de insuficiencia de recursos para concessao de gratuidade da justica",
+      "norm_b": "comprovacao de precariedade financeira para concessao de gratuidade da justica"
+    },
+    {
+      "entity_a": "Comprovação de insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios",
+      "entity_b": "Insuficiência de recursos para pagar as custas, despesas processuais e honorários advocatícios",
+      "norm_a": "comprovacao de insuficiencia de recursos para pagar as custas, as despesas processuais e os honorarios advocaticios",
+      "norm_b": "insuficiencia de recursos para pagar as custas, despesas processuais e honorarios advocaticios"
+    },
+    {
+      "entity_a": "Comprovação de insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios",
+      "entity_b": "Insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios",
+      "norm_a": "comprovacao de insuficiencia de recursos para pagar as custas, as despesas processuais e os honorarios advocaticios",
+      "norm_b": "insuficiencia de recursos para pagar as custas, as despesas processuais e os honorarios advocaticios"
+    },
+    {
+      "entity_a": "Comprovação do inadimplemento e mora do devedor",
+      "entity_b": "Comprovação da mora ou inadimplemento do devedor",
+      "norm_a": "comprovacao do inadimplemento e mora do devedor",
+      "norm_b": "comprovacao da mora ou inadimplemento do devedor"
+    },
+    {
+      "entity_a": "Comprovação do pagamento do valor total do preparo recursal",
+      "entity_b": "Comprovação do pagamento do preparo",
+      "norm_a": "comprovacao do pagamento do valor total do preparo recursal",
+      "norm_b": "comprovacao do pagamento do preparo"
+    },
+    {
+      "entity_a": "Comprovação do preparo do recurso especial mediante juntada da guia de custas do STJ e do respectivo comprovante de pagamento",
+      "entity_b": "Comprovação do preparo do recurso especial no ato de interposição mediante juntada das guias de recolhimento devidamente preenchidas e dos respectivos comprovantes de pagamento, ambos visíveis e legíveis, sob pena de deserção",
+      "norm_a": "comprovacao do preparo do recurso especial mediante juntada da guia de custas do stj e do respectivo comprovante de pagamento",
+      "norm_b": "comprovacao do preparo do recurso especial no ato de interposicao mediante juntada das guias de recolhimento devidamente preenchidas e dos respectivos comprovantes de pagamento, ambos visiveis e legiveis, sob pena de desercao"
+    },
+    {
+      "entity_a": "Comprovação do preparo recursal",
+      "entity_b": "Comprovação do pagamento do preparo",
+      "norm_a": "comprovacao do preparo recursal",
+      "norm_b": "comprovacao do pagamento do preparo"
+    },
+    {
+      "entity_a": "Comprovação do recebimento da notificação",
+      "entity_b": "Comprovação da efetiva entrega da notificação ao destinatário",
+      "norm_a": "comprovacao do recebimento da notificacao",
+      "norm_b": "comprovacao da efetiva entrega da notificacao ao destinatario"
+    },
+    {
+      "entity_a": "Concessão de efeito suspensivo ao recurso",
+      "entity_b": "Efeito suspensivo ao recurso",
+      "norm_a": "concessao de efeito suspensivo ao recurso",
+      "norm_b": "efeito suspensivo ao recurso"
+    },
+    {
+      "entity_a": "Condenação em honorários advocatícios de sucumbência",
+      "entity_b": "Condenação ao pagamento de honorários advocatícios de sucumbência",
+      "norm_a": "condenacao em honorarios advocaticios de sucumbencia",
+      "norm_b": "condenacao ao pagamento de honorarios advocaticios de sucumbencia"
+    },
+    {
+      "entity_a": "Condenação em honorários advocatícios sucumbenciais",
+      "entity_b": "Condenação ao pagamento de honorários advocatícios de sucumbência",
+      "norm_a": "condenacao em honorarios advocaticios sucumbenciais",
+      "norm_b": "condenacao ao pagamento de honorarios advocaticios de sucumbencia"
+    },
+    {
+      "entity_a": "Condenação em honorários advocatícios sucumbenciais",
+      "entity_b": "Honorários advocatícios sucumbenciais",
+      "norm_a": "condenacao em honorarios advocaticios sucumbenciais",
+      "norm_b": "honorarios advocaticios sucumbenciais"
+    },
+    {
+      "entity_a": "Condenação em honorários sucumbenciais",
+      "entity_b": "Condenação ao pagamento de honorários advocatícios de sucumbência",
+      "norm_a": "condenacao em honorarios sucumbenciais",
+      "norm_b": "condenacao ao pagamento de honorarios advocaticios de sucumbencia"
+    },
+    {
+      "entity_a": "Configuração (ou não) de vício de fundamentação/negativa de prestação jurisdicional: o acórdão deve ter enfrentado a matéria necessária ao deslinde da controvérsia para afastar alegação de violação do CPC/2015, art. 1.022",
+      "entity_b": "Configuração de violação ao CPC art. 1022 (omissão) exige efetiva ausência de enfrentamento de questão relevante para o desfecho da controvérsia",
+      "norm_a": "configuracao (ou nao) de vicio de fundamentacao/negativa de prestacao jurisdicional: o acordao deve ter enfrentado a materia necessaria ao deslinde da controversia para afastar alegacao de violacao do codigo de processo civil/2015, artigo 1.022",
+      "norm_b": "configuracao de violacao ao codigo de processo civil artigo 1022 (omissao) exige efetiva ausencia de enfrentamento de questao relevante para o desfecho da controversia"
+    },
+    {
+      "entity_a": "Configuração (ou não) de vício de fundamentação/negativa de prestação jurisdicional: o acórdão deve ter enfrentado a matéria necessária ao deslinde da controvérsia para afastar alegação de violação do CPC/2015, art. 1.022",
+      "entity_b": "Configuração de violação aos arts. 489 e 1.022 do CPC/2015 (negativa de prestação jurisdicional) depende de ausência de enfrentamento fundamentado da controvérsia, e não do simples desacolhimento da pretensão da parte",
+      "norm_a": "configuracao (ou nao) de vicio de fundamentacao/negativa de prestacao jurisdicional: o acordao deve ter enfrentado a materia necessaria ao deslinde da controversia para afastar alegacao de violacao do codigo de processo civil/2015, artigo 1.022",
+      "norm_b": "configuracao de violacao aos artigo s. 489 e 1.022 do codigo de processo civil/2015 (negativa de prestacao jurisdicional) depende de ausencia de enfrentamento fundamentado da controversia, e nao do simples desacolhimento da pretensao da parte"
+    },
+    {
+      "entity_a": "Configuração de omissão/contradição (CPC/2015 art. 1.022) exige ausência de enfrentamento de questões necessárias à solução da lide; fundamentação contrária ao interesse da parte não caracteriza vício.",
+      "entity_b": "Configuração de violação aos arts. 489 e 1.022 do CPC/2015 (negativa de prestação jurisdicional) depende de ausência de enfrentamento fundamentado da controvérsia, e não do simples desacolhimento da pretensão da parte",
+      "norm_a": "configuracao de omissao/contradicao (codigo de processo civil/2015 artigo 1.022) exige ausencia de enfrentamento de questoes necessarias a solucao da lide; fundamentacao contraria ao interesse da parte nao caracteriza vicio",
+      "norm_b": "configuracao de violacao aos artigo s. 489 e 1.022 do codigo de processo civil/2015 (negativa de prestacao jurisdicional) depende de ausencia de enfrentamento fundamentado da controversia, e nao do simples desacolhimento da pretensao da parte"
+    }
+  ]
+}
