@@ -1,34 +1,63 @@
-# JusBR-ER: A Benchmark for Entity Resolution of Legal Concepts in Brazilian Portuguese
+# JusBR-ER
 
-The first benchmark for entity resolution of legal concepts. 1,071 pairs of Brazilian legal concepts validated by a practicing lawyer (OAB/PR 96,036), covering synonyms, writing variants, antonym traps, and genus-species distinctions.
+![Task](https://img.shields.io/badge/task-entity%20resolution-1f6feb)
+![Language](https://img.shields.io/badge/language-Brazilian%20Portuguese-2e8b57)
+![Dataset](https://img.shields.io/badge/dataset-1%2C071%20pairs-0a7ea4)
+![Labels](https://img.shields.io/badge/labels-530%20merge%20%7C%20541%20no__merge-6f42c1)
+![Licensing](https://img.shields.io/badge/licensing-data%20CC%20BY--NC--SA%204.0%20%7C%20code%20MIT-8b0000)
 
-## Contents
+The public benchmark repository for **JusBR-ER**, a benchmark for entity
+resolution of legal concepts in Brazilian Portuguese.
 
-| File | Description |
-|------|-------------|
-| `jusbr_er_v1.json` | Benchmark dataset: 1,071 labeled pairs (530 merge / 541 no_merge) |
-| `synonym_dict_full.json` | Validated synonym dictionary: 487 legal concept pairs |
-| `synonym_dict_sample.json` | Sample of 100 synonym pairs |
-| `eval_baseline.py` | Standalone baseline evaluation (JW + qualifier guard, no dependencies) |
-| `annotation_guidelines.md` | Annotation guidelines with borderline rulings |
+JusBR-ER contains 1,071 labeled pairs of Brazilian legal concepts validated by
+a practicing lawyer (OAB/PR 96,036), covering synonyms, writing variants,
+antonym traps, and genus-species distinctions.
 
-## Quick Start
+Language: [pt-BR](README.pt-BR.md) | `English`
 
-```bash
-# Run JW baseline with qualifier guard
-python eval_baseline.py --dataset jusbr_er_v1.json
+## Repository Snapshot
 
-# Threshold sweep
-python eval_baseline.py --dataset jusbr_er_v1.json --sweep
-```
+| Field | Value |
+|-------|-------|
+| Task | Entity resolution of legal concepts |
+| Language | Brazilian Portuguese |
+| Total pairs | 1,071 |
+| Positive pairs | 530 `merge` |
+| Negative pairs | 541 `no_merge` |
+| Validator | Practicing lawyer, OAB/PR 96,036 |
+| Version | 1.0 |
 
-No external dependencies required. Python 3.8+ only.
+## Repository Contents
+
+| Asset | Description |
+|-------|-------------|
+| [`jusbr_er_v1.json`](jusbr_er_v1.json) | Main benchmark dataset |
+| [`synonym_dict_full.json`](synonym_dict_full.json) | Validated synonym dictionary |
+| [`synonym_dict_sample.json`](synonym_dict_sample.json) | Sample subset of synonym pairs |
+| [`eval_baseline.py`](eval_baseline.py) | Standalone baseline evaluation script |
+| [`annotation_guidelines.md`](annotation_guidelines.md) | Annotation guidelines and borderline rulings |
+
+## What The Benchmark Covers
+
+JusBR-ER is designed for legal concept matching, not just generic string
+similarity.
+
+It includes:
+
+- technical synonyms
+- writing variants
+- legal concepts that look similar but should stay separate
+- antonym and opposition traps
+- genus-species and sibling-category distinctions
 
 ## Dataset Format
 
 ```json
 {
-  "metadata": { "name": "JusBR-ER", "version": "1.0", ... },
+  "metadata": {
+    "name": "JusBR-ER",
+    "version": "1.0"
+  },
   "pairs": [
     {
       "pair_id": 87,
@@ -36,16 +65,15 @@ No external dependencies required. Python 3.8+ only.
       "entity_b": "Perigo de dano",
       "decision": "merge",
       "relationship_type": "sinonimo"
-    },
-    ...
+    }
   ]
 }
 ```
 
-### Relationship Types
+## Label Taxonomy
 
-| Type (pt-BR) | Type (EN) | Merge? |
-|------|------|:------:|
+| Type (pt-BR) | English gloss | Merge? |
+|--------------|---------------|:------:|
 | `identico` | identical | Yes |
 | `sinonimo` | synonym | Yes |
 | `variante` | writing variant | Yes |
@@ -54,23 +82,41 @@ No external dependencies required. Python 3.8+ only.
 | `antonimo_complementar` | complementary antonym | No |
 | `sem_relacao` | unrelated | No |
 
-## Baseline Results
+## Baseline Snapshot
 
-| JW Threshold | Precision | Recall | F1 |
-|:---:|:---:|:---:|:---:|
-| 0.95 | 92.1% | 10.9% | 19.6% |
-| 0.88 (default) | 50.2% | 24.1% | 32.6% |
-| 0.70 | 55.6% | 81.9% | 66.3% |
+| Setting | Precision | Recall | F1 |
+|---------|:---------:|:------:|:--:|
+| JW threshold 0.95 | 92.1% | 10.9% | 19.6% |
+| JW threshold 0.88 (default) | 50.2% | 24.1% | 32.6% |
+| JW threshold 0.70 | 55.6% | 81.9% | 66.3% |
+| Embedding-first blocking + Claude Sonnet 4.6 | - | - | 85.9% |
 
-With embedding-first blocking (BGE-M3 cosine >= 0.70) + Claude Sonnet 4.6: **F1 = 85.9%**
+## Quick Start
 
-## License
+Run the standalone baseline:
 
-- **Dataset and annotation guidelines:** CC BY-NC-SA 4.0
-- **Synonym dictionary:** CC BY-NC-SA 4.0
-- **Evaluation code:** MIT
+```bash
+python eval_baseline.py --dataset jusbr_er_v1.json
+```
 
-Free for academic and research use. Commercial use requires authorization: diego@sens.legal
+Run the threshold sweep:
+
+```bash
+python eval_baseline.py --dataset jusbr_er_v1.json --sweep
+```
+
+No external dependencies are required. Python 3.8+ is enough.
+
+## Usage And Licensing
+
+The repository uses a split licensing model:
+
+- dataset and annotation guidelines: CC BY-NC-SA 4.0
+- synonym dictionary: CC BY-NC-SA 4.0
+- evaluation code: MIT
+
+Free for academic and research use. Commercial use requires authorization:
+diego@sens.legal
 
 ## Citation
 
